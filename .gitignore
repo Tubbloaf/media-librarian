@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# generated locally; see README
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+taste_profile.json
+recently_played.json
+events.jsonl

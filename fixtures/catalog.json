@@ -1,0 +1,2028 @@
+{
+ "_comment": "Hand-authored, fictional catalog for the public pipeline. No titles, ids or metadata were captured from any real service.",
+ "categories": {
+  "classics": [
+   "100001",
+   "100002",
+   "100003",
+   "100004",
+   "100005",
+   "100006",
+   "100007",
+   "100008",
+   "100009",
+   "100010",
+   "100011",
+   "100012",
+   "100013",
+   "100014",
+   "100015",
+   "100016",
+   "100017",
+   "100018",
+   "100019",
+   "100020",
+   "100021",
+   "100022"
+  ],
+  "crime_tv": [
+   "0400021100",
+   "0400021101",
+   "0400021102",
+   "0400021103",
+   "100101",
+   "100102",
+   "100103",
+   "400000201"
+  ],
+  "sci_fi": [
+   "100201",
+   "100202",
+   "100203",
+   "100204",
+   "100205",
+   "100206",
+   "100207",
+   "100208",
+   "0400021104",
+   "0400021105"
+  ],
+  "comedy": [
+   "100301",
+   "100302",
+   "100303",
+   "100304",
+   "100305",
+   "100306",
+   "100307",
+   "100308"
+  ],
+  "documentaries": [
+   "100401",
+   "100402",
+   "100403",
+   "100404",
+   "100405",
+   "100406",
+   "400000202"
+  ],
+  "late_night": [
+   "100501",
+   "100502",
+   "100503",
+   "100504",
+   "100505",
+   "0400021106",
+   "100599"
+  ]
+ },
+ "titles": {
+  "100001": {
+   "title": "The Lantern Ledger",
+   "description": "The Lantern Ledger: a mystery story from 1941.",
+   "year": 1941,
+   "duration": 5880,
+   "tags": [
+    "Mystery",
+    "Drama"
+   ],
+   "actors": [
+    "Ines Varga",
+    "Gideon Marsh"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.4,
+    "rotten_tomatoes_score": 88
+   },
+   "detailed_type": "movie"
+  },
+  "100002": {
+   "title": "Salt Road West",
+   "description": "Salt Road West: a western story from 1952.",
+   "year": 1952,
+   "duration": 6240,
+   "tags": [
+    "Western",
+    "Adventure"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.1,
+    "rotten_tomatoes_score": 80
+   },
+   "detailed_type": "movie"
+  },
+  "100003": {
+   "title": "A Winter for Clara",
+   "description": "A Winter for Clara: a drama story from 1947.",
+   "year": 1947,
+   "duration": 6720,
+   "tags": [
+    "Drama",
+    "Romance"
+   ],
+   "actors": [
+    "Lena Hartmann",
+    "Walter Quill"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.8,
+    "rotten_tomatoes_score": 91
+   },
+   "detailed_type": "movie"
+  },
+  "100004": {
+   "title": "Harbor Lights at Midnight",
+   "description": "Harbor Lights at Midnight: a crime story from 1950.",
+   "year": 1950,
+   "duration": 5700,
+   "tags": [
+    "Crime",
+    "Drama"
+   ],
+   "actors": [
+    "Gideon Marsh",
+    "Marta Solis"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.2,
+    "rotten_tomatoes_score": 84
+   },
+   "detailed_type": "movie"
+  },
+  "100005": {
+   "title": "The Brass Orchard",
+   "description": "The Brass Orchard: a comedy story from 1956.",
+   "year": 1956,
+   "duration": 5460,
+   "tags": [
+    "Comedy"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.8,
+    "rotten_tomatoes_score": 76
+   },
+   "detailed_type": "movie"
+  },
+  "100006": {
+   "title": "Paper Kings",
+   "description": "Paper Kings: a comedy story from 1938.",
+   "year": 1938,
+   "duration": 5280,
+   "tags": [
+    "Comedy",
+    "Crime"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 79
+   },
+   "detailed_type": "movie"
+  },
+  "100007": {
+   "title": "Under the Iron Bridge",
+   "description": "Under the Iron Bridge: a crime story from 1959.",
+   "year": 1959,
+   "duration": 6060,
+   "tags": [
+    "Crime",
+    "Thriller"
+   ],
+   "actors": [
+    "Marta Solis",
+    "Felix Arden"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.6,
+    "rotten_tomatoes_score": 90
+   },
+   "detailed_type": "movie"
+  },
+  "100008": {
+   "title": "Ballad of the Tin Spur",
+   "description": "Ballad of the Tin Spur: a western story from 1955.",
+   "year": 1955,
+   "duration": 6480,
+   "tags": [
+    "Western",
+    "Musicals"
+   ],
+   "actors": [
+    "Bram Lindqvist",
+    "Ines Varga"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.5,
+    "rotten_tomatoes_score": 70
+   },
+   "detailed_type": "movie"
+  },
+  "100009": {
+   "title": "Dust and Diamonds",
+   "description": "Dust and Diamonds: a adventure story from 1962.",
+   "year": 1962,
+   "duration": 7500,
+   "tags": [
+    "Adventure",
+    "Drama"
+   ],
+   "actors": [
+    "June Okonkwo",
+    "Tomas Okafor"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.3,
+    "rotten_tomatoes_score": 82
+   },
+   "detailed_type": "movie"
+  },
+  "100010": {
+   "title": "The Quiet Armistice",
+   "description": "The Quiet Armistice: a war story from 1946.",
+   "year": 1946,
+   "duration": 7080,
+   "tags": [
+    "War",
+    "Drama"
+   ],
+   "actors": [
+    "Felix Arden",
+    "Lena Hartmann"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.9,
+    "rotten_tomatoes_score": 93
+   },
+   "detailed_type": "movie"
+  },
+  "100011": {
+   "title": "Mr. Halloran Departs",
+   "description": "Mr. Halloran Departs: a comedy story from 1964.",
+   "year": 1964,
+   "duration": 5640,
+   "tags": [
+    "Comedy"
+   ],
+   "actors": [
+    "Ines Varga",
+    "Gideon Marsh"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.5,
+    "rotten_tomatoes_score": 87
+   },
+   "detailed_type": "movie"
+  },
+  "100012": {
+   "title": "Rain on the Rialto",
+   "description": "Rain on the Rialto: a romance story from 1949.",
+   "year": 1949,
+   "duration": 5940,
+   "tags": [
+    "Romance",
+    "Musicals"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.9,
+    "rotten_tomatoes_score": 74
+   },
+   "detailed_type": "movie"
+  },
+  "100013": {
+   "title": "The Clockmaker's Daughter",
+   "description": "The Clockmaker's Daughter: a mystery story from 1944.",
+   "year": 1944,
+   "duration": 5520,
+   "tags": [
+    "Mystery"
+   ],
+   "actors": [
+    "Lena Hartmann",
+    "Walter Quill"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 81
+   },
+   "detailed_type": "movie"
+  },
+  "100014": {
+   "title": "Seven Doors to Dover",
+   "description": "Seven Doors to Dover: a thriller story from 1958.",
+   "year": 1958,
+   "duration": 5820,
+   "tags": [
+    "Thriller",
+    "Mystery"
+   ],
+   "actors": [
+    "Gideon Marsh",
+    "Marta Solis"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.7,
+    "rotten_tomatoes_score": 89
+   },
+   "detailed_type": "movie"
+  },
+  "100015": {
+   "title": "Gold Fever Junction",
+   "description": "Gold Fever Junction: a western story from 1953.",
+   "year": 1953,
+   "duration": 5400,
+   "tags": [
+    "Western"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.2,
+    "rotten_tomatoes_score": 65
+   },
+   "detailed_type": "movie"
+  },
+  "100016": {
+   "title": "The Orchard Letters",
+   "description": "The Orchard Letters: a drama story from 1971.",
+   "year": 1971,
+   "duration": 7800,
+   "tags": [
+    "Drama",
+    "Biography"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.4,
+    "rotten_tomatoes_score": 83
+   },
+   "detailed_type": "movie"
+  },
+  "100017": {
+   "title": "Lightkeeper",
+   "description": "Lightkeeper: a drama story from 1966.",
+   "year": 1966,
+   "duration": 6600,
+   "tags": [
+    "Drama"
+   ],
+   "actors": [
+    "Marta Solis",
+    "Felix Arden"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.8,
+    "rotten_tomatoes_score": 90
+   },
+   "detailed_type": "movie"
+  },
+  "100018": {
+   "title": "Fortune Street",
+   "description": "Fortune Street: a comedy story from 1939.",
+   "year": 1939,
+   "duration": 5160,
+   "tags": [
+    "Comedy",
+    "Romance"
+   ],
+   "actors": [
+    "Bram Lindqvist",
+    "Ines Varga"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.1,
+    "rotten_tomatoes_score": 80
+   },
+   "detailed_type": "movie"
+  },
+  "100019": {
+   "title": "The Long Telegram",
+   "description": "The Long Telegram: a war story from 1948.",
+   "year": 1948,
+   "duration": 7260,
+   "tags": [
+    "War",
+    "History"
+   ],
+   "actors": [
+    "June Okonkwo",
+    "Tomas Okafor"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 78
+   },
+   "detailed_type": "movie"
+  },
+  "100020": {
+   "title": "Night Ferry to Calais",
+   "description": "Night Ferry to Calais: a crime story from 1960.",
+   "year": 1960,
+   "duration": 6120,
+   "tags": [
+    "Crime",
+    "Mystery"
+   ],
+   "actors": [
+    "Felix Arden",
+    "Lena Hartmann"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.9,
+    "rotten_tomatoes_score": 92
+   },
+   "detailed_type": "movie"
+  },
+  "100021": {
+   "title": "Second Tide",
+   "description": "Second Tide: a drama story from 2001.",
+   "year": 2001,
+   "duration": 6300,
+   "tags": [
+    "Drama"
+   ],
+   "actors": [
+    "Ines Varga",
+    "Gideon Marsh"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.7,
+    "rotten_tomatoes_score": 71
+   },
+   "detailed_type": "movie"
+  },
+  "100022": {
+   "title": "The Glasshouse Case",
+   "description": "The Glasshouse Case: a mystery story from 2003.",
+   "year": 2003,
+   "duration": 5940,
+   "tags": [
+    "Mystery",
+    "Crime"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.4,
+    "rotten_tomatoes_score": 66
+   },
+   "detailed_type": "movie"
+  },
+  "0400021100": {
+   "title": "Harbor Street Precinct",
+   "description": "A harbor-district police procedural across two seasons.",
+   "year": 2009,
+   "duration": 0,
+   "tags": [
+    "Crime",
+    "Drama"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 8.1,
+    "rotten_tomatoes_score": 92
+   },
+   "detailed_type": "series"
+  },
+  "0400021101": {
+   "title": "Night Desk",
+   "description": "Overnight editors chase the city's late stories.",
+   "year": 2014,
+   "duration": 0,
+   "tags": [
+    "Crime",
+    "Drama"
+   ],
+   "actors": [
+    "Lena Hartmann",
+    "Walter Quill"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.6,
+    "rotten_tomatoes_score": 85
+   },
+   "detailed_type": "series"
+  },
+  "0400021102": {
+   "title": "Dry Creek",
+   "description": "A county sheriff and a cold case.",
+   "year": 2011,
+   "duration": 0,
+   "tags": [
+    "Crime",
+    "Mystery"
+   ],
+   "actors": [
+    "Gideon Marsh",
+    "Marta Solis"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 74
+   },
+   "detailed_type": "series"
+  },
+  "0400021103": {
+   "title": "Cold Harbor Files",
+   "description": "Reopened investigations, one per episode.",
+   "year": 2006,
+   "duration": 0,
+   "tags": [
+    "Crime",
+    "Documentary"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.2,
+    "rotten_tomatoes_score": null
+   },
+   "detailed_type": "series"
+  },
+  "100101": {
+   "title": "Ledger of Shadows",
+   "description": "Ledger of Shadows: a crime story from 2012.",
+   "year": 2012,
+   "duration": 6360,
+   "tags": [
+    "Crime",
+    "Thriller"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.9,
+    "rotten_tomatoes_score": 72
+   },
+   "detailed_type": "movie"
+  },
+  "100102": {
+   "title": "The Alibi Hour",
+   "description": "The Alibi Hour: a crime story from 2018.",
+   "year": 2018,
+   "duration": 5880,
+   "tags": [
+    "Crime",
+    "Mystery"
+   ],
+   "actors": [
+    "Marta Solis",
+    "Felix Arden"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.1,
+    "rotten_tomatoes_score": 58
+   },
+   "detailed_type": "movie"
+  },
+  "100103": {
+   "title": "Blue Line Confession",
+   "description": "Blue Line Confession: a crime story from 2005.",
+   "year": 2005,
+   "duration": 6720,
+   "tags": [
+    "Crime",
+    "Drama"
+   ],
+   "actors": [
+    "Bram Lindqvist",
+    "Ines Varga"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.3,
+    "rotten_tomatoes_score": 81
+   },
+   "detailed_type": "movie"
+  },
+  "400000201": {
+   "title": "Case Files Channel",
+   "description": "24-hour true-crime programming.",
+   "year": null,
+   "duration": 0,
+   "tags": [
+    "Crime",
+    "Documentary"
+   ],
+   "actors": [],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": null,
+    "rotten_tomatoes_score": null
+   },
+   "detailed_type": "linear"
+  },
+  "100201": {
+   "title": "Orbit of Strangers",
+   "description": "Orbit of Strangers: a sci-fi story from 2016.",
+   "year": 2016,
+   "duration": 6720,
+   "tags": [
+    "Sci-Fi",
+    "Drama"
+   ],
+   "actors": [
+    "Lena Hartmann",
+    "Walter Quill"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.1,
+    "rotten_tomatoes_score": 80
+   },
+   "detailed_type": "movie"
+  },
+  "100202": {
+   "title": "The Last Relay Station",
+   "description": "The Last Relay Station: a sci-fi story from 2009.",
+   "year": 2009,
+   "duration": 6060,
+   "tags": [
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "actors": [
+    "Gideon Marsh",
+    "Marta Solis"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.8,
+    "rotten_tomatoes_score": 69
+   },
+   "detailed_type": "movie"
+  },
+  "100203": {
+   "title": "Moonglass",
+   "description": "Moonglass: a sci-fi story from 2019.",
+   "year": 2019,
+   "duration": 7080,
+   "tags": [
+    "Sci-Fi",
+    "Adventure"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.5,
+    "rotten_tomatoes_score": 62
+   },
+   "detailed_type": "movie"
+  },
+  "100204": {
+   "title": "Helix Garden",
+   "description": "Helix Garden: a sci-fi story from 2013.",
+   "year": 2013,
+   "duration": 5760,
+   "tags": [
+    "Sci-Fi"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.0,
+    "rotten_tomatoes_score": 55
+   },
+   "detailed_type": "movie"
+  },
+  "100205": {
+   "title": "Static Bloom",
+   "description": "Static Bloom: a sci-fi story from 2021.",
+   "year": 2021,
+   "duration": 6240,
+   "tags": [
+    "Sci-Fi",
+    "Horror"
+   ],
+   "actors": [
+    "Marta Solis",
+    "Felix Arden"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 5.9,
+    "rotten_tomatoes_score": 51
+   },
+   "detailed_type": "movie"
+  },
+  "100206": {
+   "title": "The Copper Meridian",
+   "description": "The Copper Meridian: a sci-fi story from 2007.",
+   "year": 2007,
+   "duration": 6540,
+   "tags": [
+    "Sci-Fi",
+    "Adventure"
+   ],
+   "actors": [
+    "Bram Lindqvist",
+    "Ines Varga"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.3,
+    "rotten_tomatoes_score": 60
+   },
+   "detailed_type": "movie"
+  },
+  "100207": {
+   "title": "Afterglow Protocol",
+   "description": "Afterglow Protocol: a sci-fi story from 2017.",
+   "year": 2017,
+   "duration": 5940,
+   "tags": [
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "actors": [
+    "June Okonkwo",
+    "Tomas Okafor"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 77
+   },
+   "detailed_type": "movie"
+  },
+  "100208": {
+   "title": "Kepler's Orchard",
+   "description": "Kepler's Orchard: a sci-fi story from 2011.",
+   "year": 2011,
+   "duration": 6900,
+   "tags": [
+    "Sci-Fi",
+    "Drama"
+   ],
+   "actors": [
+    "Felix Arden",
+    "Lena Hartmann"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.4,
+    "rotten_tomatoes_score": 84
+   },
+   "detailed_type": "movie"
+  },
+  "0400021104": {
+   "title": "Signal Lost",
+   "description": "Deep-space crew, failing comms.",
+   "year": 2015,
+   "duration": 0,
+   "tags": [
+    "Sci-Fi",
+    "Drama"
+   ],
+   "actors": [
+    "June Okonkwo",
+    "Tomas Okafor"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.7,
+    "rotten_tomatoes_score": 86
+   },
+   "detailed_type": "series"
+  },
+  "0400021105": {
+   "title": "Quiet Orbit",
+   "description": "Three astronomers and one long shift.",
+   "year": 2018,
+   "duration": 0,
+   "tags": [
+    "Sci-Fi",
+    "Drama"
+   ],
+   "actors": [
+    "Felix Arden",
+    "Lena Hartmann"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.3,
+    "rotten_tomatoes_score": 79
+   },
+   "detailed_type": "series"
+  },
+  "100301": {
+   "title": "The Brunch Accord",
+   "description": "The Brunch Accord: a comedy story from 2015.",
+   "year": 2015,
+   "duration": 5640,
+   "tags": [
+    "Comedy",
+    "Romance"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.4,
+    "rotten_tomatoes_score": 66
+   },
+   "detailed_type": "movie"
+  },
+  "100302": {
+   "title": "Moving Day Blues",
+   "description": "Moving Day Blues: a comedy story from 2010.",
+   "year": 2010,
+   "duration": 5340,
+   "tags": [
+    "Comedy"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 5.8,
+    "rotten_tomatoes_score": 48
+   },
+   "detailed_type": "movie"
+  },
+  "100303": {
+   "title": "Aunt Odile Takes Over",
+   "description": "Aunt Odile Takes Over: a comedy story from 2002.",
+   "year": 2002,
+   "duration": 6060,
+   "tags": [
+    "Comedy",
+    "Independent"
+   ],
+   "actors": [
+    "Marta Solis",
+    "Felix Arden"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.9,
+    "rotten_tomatoes_score": 73
+   },
+   "detailed_type": "movie"
+  },
+  "100304": {
+   "title": "Understudy",
+   "description": "Understudy: a comedy story from 2019.",
+   "year": 2019,
+   "duration": 5820,
+   "tags": [
+    "Comedy",
+    "Drama"
+   ],
+   "actors": [
+    "Bram Lindqvist",
+    "Ines Varga"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.1,
+    "rotten_tomatoes_score": 82
+   },
+   "detailed_type": "movie"
+  },
+  "100305": {
+   "title": "Pet Rock Heist",
+   "description": "Pet Rock Heist: a comedy story from 2008.",
+   "year": 2008,
+   "duration": 5520,
+   "tags": [
+    "Comedy",
+    "Crime"
+   ],
+   "actors": [
+    "June Okonkwo",
+    "Tomas Okafor"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 5.5,
+    "rotten_tomatoes_score": 44
+   },
+   "detailed_type": "movie"
+  },
+  "100306": {
+   "title": "Wedding Season Overdue",
+   "description": "Wedding Season Overdue: a comedy story from 2013.",
+   "year": 2013,
+   "duration": 6240,
+   "tags": [
+    "Comedy",
+    "Romance"
+   ],
+   "actors": [
+    "Felix Arden",
+    "Lena Hartmann"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.2,
+    "rotten_tomatoes_score": 59
+   },
+   "detailed_type": "movie"
+  },
+  "100307": {
+   "title": "Notes from the Third Floor",
+   "description": "Notes from the Third Floor: a comedy story from 2017.",
+   "year": 2017,
+   "duration": 5280,
+   "tags": [
+    "Comedy",
+    "Independent"
+   ],
+   "actors": [
+    "Ines Varga",
+    "Gideon Marsh"
+   ],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.2,
+    "rotten_tomatoes_score": 85
+   },
+   "detailed_type": "movie"
+  },
+  "100308": {
+   "title": "Dinner at Hollis Park",
+   "description": "Dinner at Hollis Park: a comedy story from 2004.",
+   "year": 2004,
+   "duration": 5760,
+   "tags": [
+    "Comedy"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.6,
+    "rotten_tomatoes_score": 63
+   },
+   "detailed_type": "movie"
+  },
+  "100401": {
+   "title": "The Salt Line",
+   "description": "The Salt Line: a documentary story from 2014.",
+   "year": 2014,
+   "duration": 5040,
+   "tags": [
+    "Documentary",
+    "Science & Nature"
+   ],
+   "actors": [],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.8,
+    "rotten_tomatoes_score": 90
+   },
+   "detailed_type": "movie"
+  },
+  "100402": {
+   "title": "Voices of the Ferry Fleet",
+   "description": "Voices of the Ferry Fleet: a documentary story from 2011.",
+   "year": 2011,
+   "duration": 4560,
+   "tags": [
+    "Documentary",
+    "History"
+   ],
+   "actors": [],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.4,
+    "rotten_tomatoes_score": 86
+   },
+   "detailed_type": "movie"
+  },
+  "100403": {
+   "title": "Nine Winters in Ostrava",
+   "description": "Nine Winters in Ostrava: a documentary story from 2016.",
+   "year": 2016,
+   "duration": 5520,
+   "tags": [
+    "Documentary",
+    "History"
+   ],
+   "actors": [],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 8.0,
+    "rotten_tomatoes_score": 93
+   },
+   "detailed_type": "movie"
+  },
+  "100404": {
+   "title": "A Chord Remembered",
+   "description": "A Chord Remembered: a documentary story from 2013.",
+   "year": 2013,
+   "duration": 4860,
+   "tags": [
+    "Documentary",
+    "Music"
+   ],
+   "actors": [],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.6,
+    "rotten_tomatoes_score": 88
+   },
+   "detailed_type": "movie"
+  },
+  "100405": {
+   "title": "The Bee Ledger",
+   "description": "The Bee Ledger: a documentary story from 2018.",
+   "year": 2018,
+   "duration": 4200,
+   "tags": [
+    "Documentary",
+    "Science & Nature"
+   ],
+   "actors": [],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.2,
+    "rotten_tomatoes_score": 80
+   },
+   "detailed_type": "movie"
+  },
+  "100406": {
+   "title": "Portrait of a Lighthouse Keeper",
+   "description": "Portrait of a Lighthouse Keeper: a documentary story from 2009.",
+   "year": 2009,
+   "duration": 3480,
+   "tags": [
+    "Documentary",
+    "Biography"
+   ],
+   "actors": [],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 7.5,
+    "rotten_tomatoes_score": 84
+   },
+   "detailed_type": "movie"
+  },
+  "400000202": {
+   "title": "Nature Hours",
+   "description": "Continuous nature programming.",
+   "year": null,
+   "duration": 0,
+   "tags": [
+    "Documentary",
+    "Science & Nature"
+   ],
+   "actors": [],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": null,
+    "rotten_tomatoes_score": null
+   },
+   "detailed_type": "linear"
+  },
+  "100501": {
+   "title": "The Vacant Floor",
+   "description": "The Vacant Floor: a horror story from 2020.",
+   "year": 2020,
+   "duration": 5520,
+   "tags": [
+    "Horror",
+    "Thriller"
+   ],
+   "actors": [
+    "Tomas Okafor",
+    "Priya Anand"
+   ],
+   "directors": [
+    "H. Obuya"
+   ],
+   "content_tags": {
+    "imdb_rating": 5.7,
+    "rotten_tomatoes_score": 49
+   },
+   "detailed_type": "movie"
+  },
+  "100502": {
+   "title": "Hollow Frequency",
+   "description": "Hollow Frequency: a horror story from 2016.",
+   "year": 2016,
+   "duration": 5280,
+   "tags": [
+    "Horror",
+    "Mystery"
+   ],
+   "actors": [
+    "Lena Hartmann",
+    "Walter Quill"
+   ],
+   "directors": [
+    "M. Lindgren"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.2,
+    "rotten_tomatoes_score": 64
+   },
+   "detailed_type": "movie"
+  },
+  "100503": {
+   "title": "Mirror Season",
+   "description": "Mirror Season: a thriller story from 2012.",
+   "year": 2012,
+   "duration": 6060,
+   "tags": [
+    "Thriller",
+    "Independent"
+   ],
+   "actors": [
+    "Gideon Marsh",
+    "Marta Solis"
+   ],
+   "directors": [
+    "S. Trevino"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.6,
+    "rotten_tomatoes_score": 70
+   },
+   "detailed_type": "movie"
+  },
+  "100504": {
+   "title": "Last Train Out",
+   "description": "Last Train Out: a thriller story from 2008.",
+   "year": 2008,
+   "duration": 5700,
+   "tags": [
+    "Thriller",
+    "Crime"
+   ],
+   "actors": [
+    "Priya Anand",
+    "Bram Lindqvist"
+   ],
+   "directors": [
+    "A. Nakamura"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.0,
+    "rotten_tomatoes_score": 57
+   },
+   "detailed_type": "movie"
+  },
+  "100505": {
+   "title": "Pumpkin Hollow",
+   "description": "Pumpkin Hollow: a animation story from 2014.",
+   "year": 2014,
+   "duration": 4920,
+   "tags": [
+    "Animation",
+    "Horror"
+   ],
+   "actors": [],
+   "directors": [
+    "R. Castellane"
+   ],
+   "content_tags": {
+    "imdb_rating": 6.8,
+    "rotten_tomatoes_score": 75
+   },
+   "detailed_type": "movie"
+  },
+  "0400021106": {
+   "title": "After Hours Anthology",
+   "description": "Short strange stories, one per night.",
+   "year": 2017,
+   "duration": 0,
+   "tags": [
+    "Horror",
+    "Mystery"
+   ],
+   "actors": [
+    "Walter Quill",
+    "June Okonkwo"
+   ],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": 7.0,
+    "rotten_tomatoes_score": 80
+   },
+   "detailed_type": "series"
+  },
+  "100599": {
+   "title": "Championship Replay Night",
+   "description": "An unrecognized content type.",
+   "year": 2019,
+   "duration": 0,
+   "tags": [
+    "Sport"
+   ],
+   "actors": [],
+   "directors": [],
+   "content_tags": {
+    "imdb_rating": null,
+    "rotten_tomatoes_score": null
+   },
+   "detailed_type": "sports"
+  }
+ },
+ "episodes": {
+  "0400021100": [
+   {
+    "episode_id": "5000104",
+    "title": "S02:E01 - Fresh Paint"
+   },
+   {
+    "episode_id": "5000101",
+    "title": "S01:E01 - Pilot"
+   },
+   {
+    "episode_id": "5000103",
+    "title": "S01:E03 - The Informant"
+   },
+   {
+    "episode_id": "5000105",
+    "title": "S02:E02 - Cold Case Cabinet"
+   },
+   {
+    "episode_id": "5000102",
+    "title": "S01:E02 - Wrong Number"
+   }
+  ],
+  "0400021101": [
+   {
+    "episode_id": "5000201",
+    "title": "The Long Weekend"
+   },
+   {
+    "episode_id": "5000202",
+    "title": "Pilot"
+   },
+   {
+    "episode_id": "5000203",
+    "title": "Deadline"
+   }
+  ],
+  "0400021105": [
+   {
+    "episode_id": "5000501",
+    "title": "S01:E01 - Arrival"
+   },
+   {
+    "episode_id": "5000502",
+    "title": "S01:E02 - The Long Dark"
+   },
+   {
+    "episode_id": "5000503",
+    "title": "S01:E03 - Signal"
+   }
+  ],
+  "0400021106": [
+   {
+    "episode_id": "5000601",
+    "title": "S01:E01 - The Last Bus"
+   },
+   {
+    "episode_id": "5000602",
+    "title": "S01:E02 - Neon"
+   },
+   {
+    "episode_id": "5000603",
+    "title": "S01:E03 - Static"
+   }
+  ]
+ },
+ "page_state": {
+  "0400021103": "not_found",
+  "0400021104": "transient_error",
+  "100019": "server_error"
+ },
+ "playback": {
+  "100001": {
+   "state": "live",
+   "availability_starts": "2026-01-01T00:00:00.000Z",
+   "availability_ends": "2099-01-01T00:00:00.000Z"
+  },
+  "100020": {
+   "state": "live",
+   "availability_ends": "2020-06-01T00:00:00.000Z"
+  },
+  "100003": {
+   "state": "not_found"
+  },
+  "100007": {
+   "state": "login_redirect"
+  },
+  "100011": {
+   "state": "parse_error"
+  },
+  "100015": {
+   "state": "id_not_in_response"
+  },
+  "100018": {
+   "state": "transient_error"
+  },
+  "100102": {
+   "state": "http_error"
+  }
+ },
+ "sitemap": [
+  {
+   "video_id": "100001",
+   "title": "The Lantern Ledger",
+   "description": "The Lantern Ledger: a mystery story from 1941.",
+   "duration_seconds": 5880,
+   "catalog_url": "https://catalog.example.test/movies/100001/the-lantern-ledger",
+   "thumbnail_url": "https://img.example.test/100001.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100002",
+   "title": "Salt Road West",
+   "description": "Salt Road West: a western story from 1952.",
+   "duration_seconds": 6240,
+   "catalog_url": "https://catalog.example.test/movies/100002/salt-road-west",
+   "thumbnail_url": "https://img.example.test/100002.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100003",
+   "title": "A Winter for Clara",
+   "description": "A Winter for Clara: a drama story from 1947.",
+   "duration_seconds": 6720,
+   "catalog_url": "https://catalog.example.test/movies/100003/a-winter-for-clara",
+   "thumbnail_url": "https://img.example.test/100003.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100004",
+   "title": "Harbor Lights at Midnight",
+   "description": "Harbor Lights at Midnight: a crime story from 1950.",
+   "duration_seconds": 5700,
+   "catalog_url": "https://catalog.example.test/movies/100004/harbor-lights-at-midnight",
+   "thumbnail_url": "https://img.example.test/100004.jpg",
+   "sitemap_lastmod": "2026-08-05T00:00:00+00:00"
+  },
+  {
+   "video_id": "100005",
+   "title": "The Brass Orchard",
+   "description": "The Brass Orchard: a comedy story from 1956.",
+   "duration_seconds": 5460,
+   "catalog_url": "https://catalog.example.test/movies/100005/the-brass-orchard",
+   "thumbnail_url": "https://img.example.test/100005.jpg",
+   "sitemap_lastmod": "2026-08-06T00:00:00+00:00"
+  },
+  {
+   "video_id": "100006",
+   "title": "Paper Kings",
+   "description": "Paper Kings: a comedy story from 1938.",
+   "duration_seconds": 5280,
+   "catalog_url": "https://catalog.example.test/movies/100006/paper-kings",
+   "thumbnail_url": "https://img.example.test/100006.jpg",
+   "sitemap_lastmod": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "video_id": "100007",
+   "title": "Under the Iron Bridge",
+   "description": "Under the Iron Bridge: a crime story from 1959.",
+   "duration_seconds": 6060,
+   "catalog_url": "https://catalog.example.test/movies/100007/under-the-iron-bridge",
+   "thumbnail_url": "https://img.example.test/100007.jpg",
+   "sitemap_lastmod": "2026-08-08T00:00:00+00:00"
+  },
+  {
+   "video_id": "100008",
+   "title": "Ballad of the Tin Spur",
+   "description": "Ballad of the Tin Spur: a western story from 1955.",
+   "duration_seconds": 6480,
+   "catalog_url": "https://catalog.example.test/movies/100008/ballad-of-the-tin-spur",
+   "thumbnail_url": "https://img.example.test/100008.jpg",
+   "sitemap_lastmod": "2026-08-09T00:00:00+00:00"
+  },
+  {
+   "video_id": "100009",
+   "title": "Dust and Diamonds",
+   "description": "Dust and Diamonds: a adventure story from 1962.",
+   "duration_seconds": 7500,
+   "catalog_url": "https://catalog.example.test/movies/100009/dust-and-diamonds",
+   "thumbnail_url": "https://img.example.test/100009.jpg",
+   "sitemap_lastmod": "2026-08-10T00:00:00+00:00"
+  },
+  {
+   "video_id": "100010",
+   "title": "The Quiet Armistice",
+   "description": "The Quiet Armistice: a war story from 1946.",
+   "duration_seconds": 7080,
+   "catalog_url": "https://catalog.example.test/movies/100010/the-quiet-armistice",
+   "thumbnail_url": "https://img.example.test/100010.jpg",
+   "sitemap_lastmod": "2026-08-11T00:00:00+00:00"
+  },
+  {
+   "video_id": "100011",
+   "title": "Mr. Halloran Departs",
+   "description": "Mr. Halloran Departs: a comedy story from 1964.",
+   "duration_seconds": 5640,
+   "catalog_url": "https://catalog.example.test/movies/100011/mr-halloran-departs",
+   "thumbnail_url": "https://img.example.test/100011.jpg",
+   "sitemap_lastmod": "2026-08-12T00:00:00+00:00"
+  },
+  {
+   "video_id": "100012",
+   "title": "Rain on the Rialto",
+   "description": "Rain on the Rialto: a romance story from 1949.",
+   "duration_seconds": 5940,
+   "catalog_url": "https://catalog.example.test/movies/100012/rain-on-the-rialto",
+   "thumbnail_url": "https://img.example.test/100012.jpg",
+   "sitemap_lastmod": "2026-08-13T00:00:00+00:00"
+  },
+  {
+   "video_id": "100013",
+   "title": "The Clockmaker's Daughter",
+   "description": "The Clockmaker's Daughter: a mystery story from 1944.",
+   "duration_seconds": 5520,
+   "catalog_url": "https://catalog.example.test/movies/100013/the-clockmaker-s-daughter",
+   "thumbnail_url": "https://img.example.test/100013.jpg",
+   "sitemap_lastmod": "2026-08-14T00:00:00+00:00"
+  },
+  {
+   "video_id": "100014",
+   "title": "Seven Doors to Dover",
+   "description": "Seven Doors to Dover: a thriller story from 1958.",
+   "duration_seconds": 5820,
+   "catalog_url": "https://catalog.example.test/movies/100014/seven-doors-to-dover",
+   "thumbnail_url": "https://img.example.test/100014.jpg",
+   "sitemap_lastmod": "2026-08-15T00:00:00+00:00"
+  },
+  {
+   "video_id": "100015",
+   "title": "Gold Fever Junction",
+   "description": "Gold Fever Junction: a western story from 1953.",
+   "duration_seconds": 5400,
+   "catalog_url": "https://catalog.example.test/movies/100015/gold-fever-junction",
+   "thumbnail_url": "https://img.example.test/100015.jpg",
+   "sitemap_lastmod": "2026-08-16T00:00:00+00:00"
+  },
+  {
+   "video_id": "100016",
+   "title": "The Orchard Letters",
+   "description": "The Orchard Letters: a drama story from 1971.",
+   "duration_seconds": 7800,
+   "catalog_url": "https://catalog.example.test/movies/100016/the-orchard-letters",
+   "thumbnail_url": "https://img.example.test/100016.jpg",
+   "sitemap_lastmod": "2026-08-17T00:00:00+00:00"
+  },
+  {
+   "video_id": "100017",
+   "title": "Lightkeeper",
+   "description": "Lightkeeper: a drama story from 1966.",
+   "duration_seconds": 6600,
+   "catalog_url": "https://catalog.example.test/movies/100017/lightkeeper",
+   "thumbnail_url": "https://img.example.test/100017.jpg",
+   "sitemap_lastmod": "2026-08-18T00:00:00+00:00"
+  },
+  {
+   "video_id": "100018",
+   "title": "Fortune Street",
+   "description": "Fortune Street: a comedy story from 1939.",
+   "duration_seconds": 5160,
+   "catalog_url": "https://catalog.example.test/movies/100018/fortune-street",
+   "thumbnail_url": "https://img.example.test/100018.jpg",
+   "sitemap_lastmod": "2026-08-19T00:00:00+00:00"
+  },
+  {
+   "video_id": "100019",
+   "title": "The Long Telegram",
+   "description": "The Long Telegram: a war story from 1948.",
+   "duration_seconds": 7260,
+   "catalog_url": "https://catalog.example.test/movies/100019/the-long-telegram",
+   "thumbnail_url": "https://img.example.test/100019.jpg",
+   "sitemap_lastmod": "2026-08-20T00:00:00+00:00"
+  },
+  {
+   "video_id": "100020",
+   "title": "Night Ferry to Calais",
+   "description": "Night Ferry to Calais: a crime story from 1960.",
+   "duration_seconds": 6120,
+   "catalog_url": "https://catalog.example.test/movies/100020/night-ferry-to-calais",
+   "thumbnail_url": "https://img.example.test/100020.jpg",
+   "sitemap_lastmod": "2026-08-21T00:00:00+00:00"
+  },
+  {
+   "video_id": "100021",
+   "title": "Second Tide",
+   "description": "Second Tide: a drama story from 2001.",
+   "duration_seconds": 6300,
+   "catalog_url": "https://catalog.example.test/movies/100021/second-tide",
+   "thumbnail_url": "https://img.example.test/100021.jpg",
+   "sitemap_lastmod": "2026-08-22T00:00:00+00:00"
+  },
+  {
+   "video_id": "100022",
+   "title": "The Glasshouse Case",
+   "description": "The Glasshouse Case: a mystery story from 2003.",
+   "duration_seconds": 5940,
+   "catalog_url": "https://catalog.example.test/movies/100022/the-glasshouse-case",
+   "thumbnail_url": "https://img.example.test/100022.jpg",
+   "sitemap_lastmod": "2026-08-23T00:00:00+00:00"
+  },
+  {
+   "video_id": "100101",
+   "title": "Ledger of Shadows",
+   "description": "Ledger of Shadows: a crime story from 2012.",
+   "duration_seconds": 6360,
+   "catalog_url": "https://catalog.example.test/movies/100101/ledger-of-shadows",
+   "thumbnail_url": "https://img.example.test/100101.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100102",
+   "title": "The Alibi Hour",
+   "description": "The Alibi Hour: a crime story from 2018.",
+   "duration_seconds": 5880,
+   "catalog_url": "https://catalog.example.test/movies/100102/the-alibi-hour",
+   "thumbnail_url": "https://img.example.test/100102.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100103",
+   "title": "Blue Line Confession",
+   "description": "Blue Line Confession: a crime story from 2005.",
+   "duration_seconds": 6720,
+   "catalog_url": "https://catalog.example.test/movies/100103/blue-line-confession",
+   "thumbnail_url": "https://img.example.test/100103.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100201",
+   "title": "Orbit of Strangers",
+   "description": "Orbit of Strangers: a sci-fi story from 2016.",
+   "duration_seconds": 6720,
+   "catalog_url": "https://catalog.example.test/movies/100201/orbit-of-strangers",
+   "thumbnail_url": "https://img.example.test/100201.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100202",
+   "title": "The Last Relay Station",
+   "description": "The Last Relay Station: a sci-fi story from 2009.",
+   "duration_seconds": 6060,
+   "catalog_url": "https://catalog.example.test/movies/100202/the-last-relay-station",
+   "thumbnail_url": "https://img.example.test/100202.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100203",
+   "title": "Moonglass",
+   "description": "Moonglass: a sci-fi story from 2019.",
+   "duration_seconds": 7080,
+   "catalog_url": "https://catalog.example.test/movies/100203/moonglass",
+   "thumbnail_url": "https://img.example.test/100203.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100204",
+   "title": "Helix Garden",
+   "description": "Helix Garden: a sci-fi story from 2013.",
+   "duration_seconds": 5760,
+   "catalog_url": "https://catalog.example.test/movies/100204/helix-garden",
+   "thumbnail_url": "https://img.example.test/100204.jpg",
+   "sitemap_lastmod": "2026-08-05T00:00:00+00:00"
+  },
+  {
+   "video_id": "100205",
+   "title": "Static Bloom",
+   "description": "Static Bloom: a sci-fi story from 2021.",
+   "duration_seconds": 6240,
+   "catalog_url": "https://catalog.example.test/movies/100205/static-bloom",
+   "thumbnail_url": "https://img.example.test/100205.jpg",
+   "sitemap_lastmod": "2026-08-06T00:00:00+00:00"
+  },
+  {
+   "video_id": "100206",
+   "title": "The Copper Meridian",
+   "description": "The Copper Meridian: a sci-fi story from 2007.",
+   "duration_seconds": 6540,
+   "catalog_url": "https://catalog.example.test/movies/100206/the-copper-meridian",
+   "thumbnail_url": "https://img.example.test/100206.jpg",
+   "sitemap_lastmod": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "video_id": "100207",
+   "title": "Afterglow Protocol",
+   "description": "Afterglow Protocol: a sci-fi story from 2017.",
+   "duration_seconds": 5940,
+   "catalog_url": "https://catalog.example.test/movies/100207/afterglow-protocol",
+   "thumbnail_url": "https://img.example.test/100207.jpg",
+   "sitemap_lastmod": "2026-08-08T00:00:00+00:00"
+  },
+  {
+   "video_id": "100208",
+   "title": "Kepler's Orchard",
+   "description": "Kepler's Orchard: a sci-fi story from 2011.",
+   "duration_seconds": 6900,
+   "catalog_url": "https://catalog.example.test/movies/100208/kepler-s-orchard",
+   "thumbnail_url": "https://img.example.test/100208.jpg",
+   "sitemap_lastmod": "2026-08-09T00:00:00+00:00"
+  },
+  {
+   "video_id": "100301",
+   "title": "The Brunch Accord",
+   "description": "The Brunch Accord: a comedy story from 2015.",
+   "duration_seconds": 5640,
+   "catalog_url": "https://catalog.example.test/movies/100301/the-brunch-accord",
+   "thumbnail_url": "https://img.example.test/100301.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100302",
+   "title": "Moving Day Blues",
+   "description": "Moving Day Blues: a comedy story from 2010.",
+   "duration_seconds": 5340,
+   "catalog_url": "https://catalog.example.test/movies/100302/moving-day-blues",
+   "thumbnail_url": "https://img.example.test/100302.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100303",
+   "title": "Aunt Odile Takes Over",
+   "description": "Aunt Odile Takes Over: a comedy story from 2002.",
+   "duration_seconds": 6060,
+   "catalog_url": "https://catalog.example.test/movies/100303/aunt-odile-takes-over",
+   "thumbnail_url": "https://img.example.test/100303.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100304",
+   "title": "Understudy",
+   "description": "Understudy: a comedy story from 2019.",
+   "duration_seconds": 5820,
+   "catalog_url": "https://catalog.example.test/movies/100304/understudy",
+   "thumbnail_url": "https://img.example.test/100304.jpg",
+   "sitemap_lastmod": "2026-08-05T00:00:00+00:00"
+  },
+  {
+   "video_id": "100305",
+   "title": "Pet Rock Heist",
+   "description": "Pet Rock Heist: a comedy story from 2008.",
+   "duration_seconds": 5520,
+   "catalog_url": "https://catalog.example.test/movies/100305/pet-rock-heist",
+   "thumbnail_url": "https://img.example.test/100305.jpg",
+   "sitemap_lastmod": "2026-08-06T00:00:00+00:00"
+  },
+  {
+   "video_id": "100306",
+   "title": "Wedding Season Overdue",
+   "description": "Wedding Season Overdue: a comedy story from 2013.",
+   "duration_seconds": 6240,
+   "catalog_url": "https://catalog.example.test/movies/100306/wedding-season-overdue",
+   "thumbnail_url": "https://img.example.test/100306.jpg",
+   "sitemap_lastmod": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "video_id": "100307",
+   "title": "Notes from the Third Floor",
+   "description": "Notes from the Third Floor: a comedy story from 2017.",
+   "duration_seconds": 5280,
+   "catalog_url": "https://catalog.example.test/movies/100307/notes-from-the-third-floor",
+   "thumbnail_url": "https://img.example.test/100307.jpg",
+   "sitemap_lastmod": "2026-08-08T00:00:00+00:00"
+  },
+  {
+   "video_id": "100308",
+   "title": "Dinner at Hollis Park",
+   "description": "Dinner at Hollis Park: a comedy story from 2004.",
+   "duration_seconds": 5760,
+   "catalog_url": "https://catalog.example.test/movies/100308/dinner-at-hollis-park",
+   "thumbnail_url": "https://img.example.test/100308.jpg",
+   "sitemap_lastmod": "2026-08-09T00:00:00+00:00"
+  },
+  {
+   "video_id": "100401",
+   "title": "The Salt Line",
+   "description": "The Salt Line: a documentary story from 2014.",
+   "duration_seconds": 5040,
+   "catalog_url": "https://catalog.example.test/movies/100401/the-salt-line",
+   "thumbnail_url": "https://img.example.test/100401.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100402",
+   "title": "Voices of the Ferry Fleet",
+   "description": "Voices of the Ferry Fleet: a documentary story from 2011.",
+   "duration_seconds": 4560,
+   "catalog_url": "https://catalog.example.test/movies/100402/voices-of-the-ferry-fleet",
+   "thumbnail_url": "https://img.example.test/100402.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100403",
+   "title": "Nine Winters in Ostrava",
+   "description": "Nine Winters in Ostrava: a documentary story from 2016.",
+   "duration_seconds": 5520,
+   "catalog_url": "https://catalog.example.test/movies/100403/nine-winters-in-ostrava",
+   "thumbnail_url": "https://img.example.test/100403.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100404",
+   "title": "A Chord Remembered",
+   "description": "A Chord Remembered: a documentary story from 2013.",
+   "duration_seconds": 4860,
+   "catalog_url": "https://catalog.example.test/movies/100404/a-chord-remembered",
+   "thumbnail_url": "https://img.example.test/100404.jpg",
+   "sitemap_lastmod": "2026-08-05T00:00:00+00:00"
+  },
+  {
+   "video_id": "100405",
+   "title": "The Bee Ledger",
+   "description": "The Bee Ledger: a documentary story from 2018.",
+   "duration_seconds": 4200,
+   "catalog_url": "https://catalog.example.test/movies/100405/the-bee-ledger",
+   "thumbnail_url": "https://img.example.test/100405.jpg",
+   "sitemap_lastmod": "2026-08-06T00:00:00+00:00"
+  },
+  {
+   "video_id": "100406",
+   "title": "Portrait of a Lighthouse Keeper",
+   "description": "Portrait of a Lighthouse Keeper: a documentary story from 2009.",
+   "duration_seconds": 3480,
+   "catalog_url": "https://catalog.example.test/movies/100406/portrait-of-a-lighthouse-keeper",
+   "thumbnail_url": "https://img.example.test/100406.jpg",
+   "sitemap_lastmod": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "video_id": "100501",
+   "title": "The Vacant Floor",
+   "description": "The Vacant Floor: a horror story from 2020.",
+   "duration_seconds": 5520,
+   "catalog_url": "https://catalog.example.test/movies/100501/the-vacant-floor",
+   "thumbnail_url": "https://img.example.test/100501.jpg",
+   "sitemap_lastmod": "2026-08-02T00:00:00+00:00"
+  },
+  {
+   "video_id": "100502",
+   "title": "Hollow Frequency",
+   "description": "Hollow Frequency: a horror story from 2016.",
+   "duration_seconds": 5280,
+   "catalog_url": "https://catalog.example.test/movies/100502/hollow-frequency",
+   "thumbnail_url": "https://img.example.test/100502.jpg",
+   "sitemap_lastmod": "2026-08-03T00:00:00+00:00"
+  },
+  {
+   "video_id": "100503",
+   "title": "Mirror Season",
+   "description": "Mirror Season: a thriller story from 2012.",
+   "duration_seconds": 6060,
+   "catalog_url": "https://catalog.example.test/movies/100503/mirror-season",
+   "thumbnail_url": "https://img.example.test/100503.jpg",
+   "sitemap_lastmod": "2026-08-04T00:00:00+00:00"
+  },
+  {
+   "video_id": "100504",
+   "title": "Last Train Out",
+   "description": "Last Train Out: a thriller story from 2008.",
+   "duration_seconds": 5700,
+   "catalog_url": "https://catalog.example.test/movies/100504/last-train-out",
+   "thumbnail_url": "https://img.example.test/100504.jpg",
+   "sitemap_lastmod": "2026-08-05T00:00:00+00:00"
+  },
+  {
+   "video_id": "100505",
+   "title": "Pumpkin Hollow",
+   "description": "Pumpkin Hollow: a animation story from 2014.",
+   "duration_seconds": 4920,
+   "catalog_url": "https://catalog.example.test/movies/100505/pumpkin-hollow",
+   "thumbnail_url": "https://img.example.test/100505.jpg",
+   "sitemap_lastmod": "2026-08-06T00:00:00+00:00"
+  },
+  {
+   "video_id": "190001",
+   "title": "Ferryman's Almanac",
+   "description": "Ferryman's Almanac (1957).",
+   "duration_seconds": 5580,
+   "catalog_url": "https://catalog.example.test/movies/190001/ferryman-s-almanac",
+   "thumbnail_url": "https://img.example.test/190001.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190002",
+   "title": "Tangerine Ledger",
+   "description": "Tangerine Ledger (1968).",
+   "duration_seconds": 6060,
+   "catalog_url": "https://catalog.example.test/movies/190002/tangerine-ledger",
+   "thumbnail_url": "https://img.example.test/190002.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190003",
+   "title": "A Map of Small Hours",
+   "description": "A Map of Small Hours (2011).",
+   "duration_seconds": 5820,
+   "catalog_url": "https://catalog.example.test/movies/190003/a-map-of-small-hours",
+   "thumbnail_url": "https://img.example.test/190003.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190004",
+   "title": "The Cartographer's Hand",
+   "description": "The Cartographer's Hand (1945).",
+   "duration_seconds": 5340,
+   "catalog_url": "https://catalog.example.test/movies/190004/the-cartographer-s-hand",
+   "thumbnail_url": "https://img.example.test/190004.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190005",
+   "title": "Sunday at the Mill",
+   "description": "Sunday at the Mill (1963).",
+   "duration_seconds": 5520,
+   "catalog_url": "https://catalog.example.test/movies/190005/sunday-at-the-mill",
+   "thumbnail_url": "https://img.example.test/190005.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190006",
+   "title": "Greenhouse Weather",
+   "description": "Greenhouse Weather (2015).",
+   "duration_seconds": 5160,
+   "catalog_url": "https://catalog.example.test/movies/190006/greenhouse-weather",
+   "thumbnail_url": "https://img.example.test/190006.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190007",
+   "title": "Rooftop Chorus",
+   "description": "Rooftop Chorus (1976).",
+   "duration_seconds": 6240,
+   "catalog_url": "https://catalog.example.test/movies/190007/rooftop-chorus",
+   "thumbnail_url": "https://img.example.test/190007.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  },
+  {
+   "video_id": "190008",
+   "title": "Winterbourne Station",
+   "description": "Winterbourne Station (1951).",
+   "duration_seconds": 5700,
+   "catalog_url": "https://catalog.example.test/movies/190008/winterbourne-station",
+   "thumbnail_url": "https://img.example.test/190008.jpg",
+   "sitemap_lastmod": "2026-09-01T00:00:00+00:00"
+  }
+ ],
+ "sitemap_files_failed": 0
+}

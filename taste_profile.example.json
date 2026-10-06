@@ -1,0 +1,214 @@
+{
+  "preferred_tags": {
+    "sci-fi": 3,
+    "crime": 2,
+    "mystery": 2,
+    "comedy": 1
+  },
+  "preferred_categories": {},
+  "preferred_stars": {},
+  "excluded_tags": [],
+  "excluded_categories": [],
+  "min_imdb_by_tag": {
+    "drama": 4.5,
+    "comedy": 5.5,
+    "crime": 5.1,
+    "thriller": 4.2,
+    "adventure": 3.0,
+    "horror": 4.3,
+    "sci-fi": 3.8,
+    "romance": 4.8,
+    "mystery": 4.5,
+    "documentary": 7.5,
+    "independent": 5.5,
+    "animation": 7.5,
+    "western": 5.3,
+    "war": 7.2,
+    "music": 8.3,
+    "musicals": 9.2,
+    "biography": 5.0,
+    "history": 6.0,
+    "science & nature": 7.0
+  },
+  "imdb_target_by_tag": {
+    "drama": {
+      "target": 7.8,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "comedy": {
+      "target": 7.0,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "crime": {
+      "target": 8.0,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "thriller": {
+      "target": 5.5,
+      "spread": 1.3,
+      "max_bonus": 3
+    },
+    "adventure": {
+      "target": 7.2,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "horror": {
+      "target": 5.5,
+      "spread": 1.2,
+      "max_bonus": 3
+    },
+    "sci-fi": {
+      "target": 5.5,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "romance": {
+      "target": 7.0,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "documentary": {
+      "target": 7.8,
+      "spread": 0.3,
+      "max_bonus": 3
+    },
+    "independent": {
+      "target": 8.5,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "animation": {
+      "target": 8.0,
+      "spread": 0.5,
+      "max_bonus": 3
+    },
+    "western": {
+      "target": 7.0,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "war": {
+      "target": 7.5,
+      "spread": 0.3,
+      "max_bonus": 3
+    },
+    "music": {
+      "target": 8.5,
+      "spread": 0.2,
+      "max_bonus": 3
+    },
+    "musicals": {
+      "target": 9.5,
+      "spread": 0.3,
+      "max_bonus": 3
+    },
+    "biography": {
+      "target": 6.5,
+      "spread": 1.5,
+      "max_bonus": 3
+    },
+    "history": {
+      "target": 7.0,
+      "spread": 1.0,
+      "max_bonus": 3
+    },
+    "science & nature": {
+      "target": 7.8,
+      "spread": 0.8,
+      "max_bonus": 3
+    }
+  },
+  "excluded_tag_combinations": [
+    [
+      "animation",
+      "horror"
+    ]
+  ],
+  "dayparts": [
+    {
+      "_window": "Morning",
+      "min_hour": 6,
+      "max_hour": 10,
+      "category_slugs": [
+        {
+          "slug": "classics",
+          "max_year": 1999
+        },
+        "comedy"
+      ],
+      "tag_bonus": {
+        "comedy": 2,
+        "drama": 1
+      },
+      "short_max_minutes": 100,
+      "short_bonus": 1
+    },
+    {
+      "_window": "Midday",
+      "min_hour": 10,
+      "max_hour": 14,
+      "category_slugs": [
+        "crime_tv",
+        "documentaries"
+      ],
+      "tag_bonus": {
+        "crime": 3,
+        "documentary": 2
+      },
+      "content_type_bonus": {
+        "series": 3
+      }
+    },
+    {
+      "_window": "Afternoon",
+      "min_hour": 14,
+      "max_hour": 20,
+      "category_slugs": [
+        "sci_fi",
+        "comedy"
+      ],
+      "tag_bonus": {
+        "sci-fi": 3,
+        "comedy": 1
+      }
+    },
+    {
+      "_window": "Night",
+      "min_hour": 20,
+      "max_hour": 23,
+      "category_slugs": [
+        "crime_tv",
+        "sci_fi",
+        {
+          "slug": "classics",
+          "max_year": 1999
+        }
+      ],
+      "tag_bonus": {
+        "crime": 2,
+        "thriller": 2,
+        "mystery": 2
+      }
+    },
+    {
+      "_window": "Late",
+      "min_hour": 23,
+      "max_hour": 6,
+      "category_slugs": [
+        "late_night",
+        {
+          "slug": "classics",
+          "max_year": 1999
+        }
+      ],
+      "tag_bonus": {
+        "horror": 2,
+        "mystery": 2
+      }
+    }
+  ]
+}
