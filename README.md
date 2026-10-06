@@ -111,13 +111,24 @@ python -m pytest tests/test_pipeline_e2e.py -v
 
 Selection (`selection.select_playable`) calls verification, not the other way
 round. It makes at most 3 attempts, withholds each rejected id from later
-attempts in the same request (otherwise the scorer's "ignore exclusions if
-nothing is left" rule would hand back the same dead title and drive it to
-`unavailable` on one request), and treats the two kinds of title differently:
+attempts in the same request, and treats the two kinds of title differently:
 a movie whose check is inconclusive launches anyway, because its stored URL
 plays as it is; a series is never launched until it resolves to a real
 episode. If three attempts are spent, `serve_once` falls back to the best
 movie rather than staying silent.
+
+**Rejected ids are not recently-played ids.** Both keep a title out of a
+pick, but they mean different things. Recently-played ids are a preference:
+the scorer ignores them when honoring them would leave nothing to pick,
+because repeating a title beats playing nothing. A rejected id is a fact
+about this request: the title just failed verification or episode
+resolution. Passed as exclusions, rejected ids would inherit the preference
+rule, so once the pool ran short the scorer would return the same dead title
+again, re-verify it, and count another definitive failure, enough to retire
+it as `unavailable` on a single request. `select_playable` therefore removes
+rejected titles from the candidate list itself, where that fallback cannot
+reach them
+(`test_selection.py::test_one_request_cannot_drive_a_title_to_unavailable`).
 
 ## Feedback
 
