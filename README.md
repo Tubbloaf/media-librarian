@@ -1,31 +1,62 @@
 # media-librarian
 
-A stateful media-selection pipeline. It turns imperfect catalog observations
-into normalized persistent state, verifies candidates before acting on them,
-selects against a time-of-day taste profile, hands the pick to a launch
-function, records what happened, and feeds outcomes back into later
-selection. Python standard library only; `pytest` for the suite.
+A stateful media-selection pipeline extracted from a personal production
+system. It turns imperfect catalog observations into normalized persistent
+state, selects against a time-of-day taste profile, verifies candidates
+before launching them, and feeds outcomes back into later picks. Python
+standard library only; `pytest` for the suite.
 
 ```
 pip install -r requirements-dev.txt
 python -m pytest             # ~10s; no network, browser, or credentials
 ```
 
-Requires Python 3.10+ (CI runs 3.10 and 3.12) and SQLite 3.30+. The whole pipeline, including
-ingestion, runs offline against fictional fixtures.
+Requires Python 3.10+ (CI runs 3.10 and 3.12) and SQLite 3.30+. The whole
+pipeline, including ingestion, runs offline against fictional fixtures.
 
-## The problem
+## Background
 
-In the original system a live TV channel was stored and treated as a film,
-and a catalog harvest stopped after one slug while looking complete. Both
-trace to the same cause: acting on an uncontrolled catalog goes wrong
-quietly.
+This is a sanitized extraction of a system that drove real playback from a
+live external catalog. The design was shaped by two production failures that
+made it into the codebase as named regression tests — see
+[Failures that shaped it](#failures-that-shaped-it) below.
 
-The catalog is outside the system's control: records arrive from several
-sources with different completeness, items are mislabeled, pages disappear,
-and networks fail. Acting on that directly produced real failures (below).
-This pipeline separates what has been *observed* from what is *eligible* from
+The core problem: **acting on an uncontrolled catalog goes wrong quietly.**
+The catalog is outside the system's control. Records arrive from several
+sources with different completeness; items are mislabeled; pages disappear;
+networks fail. Acting on that directly produced silent failures. This
+pipeline separates what has been *observed* from what is *eligible* from
 what has been *verified*, and makes each transition explicit and tested.
+
+## Failures that shaped it
+
+Both cases are from the production system, not fixture output.
+
+**Channels filed as movies.** Category grids carried live channels beside
+films. Normalization routed only `series` to a series URL, so a channel fell
+through to the movie branch and looked exactly like a movie. Verification
+couldn't catch it because a channel page really is live. A channel's
+`duration: 0` was also stored as NULL, indistinguishable from a film with a
+missing runtime. 172 rows were affected before anyone noticed.
+
+Fixes: classify by type, treat zero and missing durations differently, make
+eligibility a per-type table, and migrate old rows with a script that refuses
+on ambiguity (`bin/migrate_types.py`).
+
+Regression tests: `test_registry.py::test_never_stores_a_linear_channel`,
+`test_registry.py::test_linear_is_never_eligible`,
+`test_serve_once.py::test_linear_from_the_grid_is_never_launched`, and
+`test_migrate_types.py` (the migration refuses ambiguous rows).
+
+**A half-finished harvest that looked complete.** The category harvest raised
+`NameError` after its first slug on every run for six days. The traceback was
+visible, but nothing downstream treated a half-populated registry as
+different from a full one, so selection quietly fell back to the grid. Now
+the harvest continues past a failed slug, reports `attempted/succeeded/failed`,
+and exits non-zero on a partial run.
+
+Regression tests: `test_registry_build.py::TestPartialHarvestIsLoud`,
+including `test_a_nameerror_is_caught_like_any_other_failure`.
 
 ## Flow
 
@@ -61,8 +92,8 @@ deterministic and reproducible.
 ## One cycle, traced
 
 Persistent state: the registry tables (`movies`, `episode_plays`,
-`registry_meta`), the `feedback` table in the same database, `recently_played.json`
-and `events.jsonl`.
+`registry_meta`), the `feedback` table in the same database,
+`recently_played.json` and `events.jsonl`.
 
 This is the scenario in `tests/test_pipeline_e2e.py`, on the shipped fixture:
 
@@ -75,9 +106,9 @@ This is the scenario in `tests/test_pipeline_e2e.py`, on the shipped fixture:
    registry (it has at least 20 rows) and `crime_tv` and `sci_fi` from the
    fixture grid (too few registry rows). The top-scoring title is `100207`
    at score 5.0 (tied with `100202`; the scorer's tie-breakers favor it). It
-   verifies live, is launched (the test's launch function
-   records the URL), and the serve is recorded in the registry, the
-   recently-played list and `events.jsonl`.
+   verifies live, is launched (the test's launch function records the URL),
+   and the serve is recorded in the registry, the recently-played list and
+   `events.jsonl`.
 3. **Control.** With only the recently-played list cleared, the same request
    picks `100207` again.
 4. **Outcome.** `feedback.record_outcome(db, "100207", "skip")` counts a
@@ -121,11 +152,11 @@ movie rather than staying silent.
 pick, but they mean different things. Recently-played ids are a preference:
 the scorer ignores them when honoring them would leave nothing to pick,
 because repeating a title beats playing nothing. A rejected id is a fact
-about this request: the title just failed verification or episode
-resolution. Passed as exclusions, rejected ids would inherit the preference
-rule, so once the pool ran short the scorer would return the same dead title
-again, re-verify it, and count another definitive failure, enough to retire
-it as `unavailable` on a single request. `select_playable` therefore removes
+about this request: the title just failed verification or episode resolution.
+Passed as exclusions, rejected ids would inherit the preference rule, so once
+the pool ran short the scorer would return the same dead title again,
+re-verify it, and count another definitive failure, enough to retire it as
+`unavailable` on a single request. `select_playable` therefore removes
 rejected titles from the candidate list itself, where that fallback cannot
 reach them
 (`test_selection.py::test_one_request_cannot_drive_a_title_to_unavailable`).
@@ -157,11 +188,11 @@ counters and one formula, not a recommender.
 - **Offline.** The suite also passes with socket connect and DNS resolution
   patched to raise.
 - **Manual mutation checks.** Done by hand during extraction, each making
-  the expected tests fail: removing
-  `hour=hour` from the first `select_playable` call in `serve.py` (3 tests
-  fail), removing it from the fallback call (1 fails), and changing
-  `feedback=adjust` to `feedback=None` at both call sites (3 fail). They are
-  not automated, and they cover those three edits only.
+  the expected tests fail: removing `hour=hour` from the first
+  `select_playable` call in `serve.py` (3 tests fail), removing it from the
+  fallback call (1 fails), and changing `feedback=adjust` to `feedback=None`
+  at both call sites (3 fail). They are not automated, and they cover those
+  three edits only.
 - **The hour-boundary tests were corrected, not just ported.** Two tests in
   the original suite patched a function the code under test never calls, so
   they ran against the wrong profile and could not fail for the reason they
@@ -169,75 +200,8 @@ counters and one formula, not a recommender.
   clock is made to cross the hour during the request, so scoring, or the
   movie fallback, re-reading the clock now fails the tests (the first
   mutation above fails 3, including the fallback test). That makes them
-  capable of failing for that regression. It does not prove hour handling in
-  general.
-
-## Failures that shaped it
-
-Both cases are historical evidence from the original system, not fixture
-output: the counts and durations below describe what happened there and are
-not reproducible here. What is reproducible is the regression tests.
-
-**Channels filed as movies.** Category grids carried live channels beside
-films. Normalization routed only `series` to a series URL, so a channel fell
-through to the movie branch and looked exactly like a movie. Verification
-could not catch it, because a channel page really is live. A channel's
-`duration: 0` was also stored as NULL, indistinguishable from a film with a
-missing runtime. In the original system, 172 rows were affected before
-anyone noticed. The fixes: classify by type, treat zero and missing durations
-differently, make eligibility a per-type table, and migrate old rows with a
-script that refuses on ambiguity (`bin/migrate_types.py`).
-
-Regression tests: `test_registry.py::test_never_stores_a_linear_channel`,
-`test_registry.py::test_linear_is_never_eligible`,
-`test_serve_once.py::test_linear_from_the_grid_is_never_launched`, and
-`test_migrate_types.py` (the migration refuses ambiguous rows).
-
-**A half-finished harvest that looked complete.** In the original system the
-category harvest raised `NameError` after its first slug on every run for six
-days. The traceback was
-visible, but nothing downstream treated a half-populated registry as different
-from a full one, so selection quietly fell back to the grid. Now the harvest
-continues past a failed slug, reports `attempted/succeeded/failed`, and exits
-non-zero on a partial run.
-
-Regression tests: `test_registry_build.py::TestPartialHarvestIsLoud`, including
-`test_a_nameerror_is_caught_like_any_other_failure`.
-
-## Provenance and boundaries
-
-This is a snapshot extracted from a personal media-control system that
-drove playback from an external video catalog. What was kept
-unchanged or near it: the registry, verification policy, selection, series
-sequencing, ingest accounting, migration. What is new here: `serve.py`
-(extracted from the private trigger handler), `feedback.py`,
-`recently_played.py`, `events.py`, `catalog.py` and the fixtures.
-
-- **No acquisition code.** There are no fetchers, endpoints, request headers,
-  tokens or page parsers for any live service. Nothing in this repository
-  makes a network request.
-- **Fixtures are fictional.** `fixtures/catalog.json` was authored for this
-  repository; no title, id or metadata was captured from any service. URLs
-  use a reserved `.test` host.
-- **Service-specific names were removed.** Module, column and fixture names
-  are generic; the URL and updated-at columns were renamed during extraction
-  (`catalog_url`, `catalog_updated_at`).
-
-## Known limitations
-
-These exist in the original system and were deliberately not changed.
-
-- **Series are not background-verified**; their state changes when served.
-- **Availability filtering is partial.** A title outside its availability
-  window is excluded only where a window has been stored.
-- **A dead title seen only on a grid is not remembered.**
-  `registry.record_verification` updates existing rows only.
-- **Serve statistics are recorded but not read.** `serve_count` and
-  `last_served_at` are stamped; repeat avoidance uses the bounded
-  recently-played list, and `feedback.py` is the only path from outcomes back
-  into selection.
-- **One serve entry point.** `serve_once` is one of the original system's
-  serve surfaces; the others are not included.
+  capable of failing for that regression. It does not prove hour handling
+  in general.
 
 ## Reproduce
 
@@ -263,4 +227,39 @@ feedback.record_outcome(Path("registry.db"), "100207", "skip")
 ```
 
 (`registry_build.py` writes `registry.db` by default; pass `--db` to change it.)
+
+## Provenance and boundaries
+
+What was kept unchanged or near it from the original system: the registry,
+verification policy, selection, series sequencing, ingest accounting,
+migration. What is new here: `serve.py` (extracted from the private trigger
+handler), `feedback.py`, `recently_played.py`, `events.py`, `catalog.py`
+and the fixtures.
+
+- **No acquisition code.** There are no fetchers, endpoints, request headers,
+  tokens or page parsers for any live service. Nothing in this repository
+  makes a network request.
+- **Fixtures are fictional.** `fixtures/catalog.json` was authored for this
+  repository; no title, id or metadata was captured from any service. URLs
+  use a reserved `.test` host.
+- **Service-specific names were removed.** Module, column and fixture names
+  are generic; the URL and updated-at columns were renamed during extraction
+  (`catalog_url`, `catalog_updated_at`).
+
+## Known limitations
+
+These exist in the original system and were deliberately not changed.
+
+- **Series are not background-verified**; their state changes when served.
+- **Availability filtering is partial.** A title outside its availability
+  window is excluded only where a window has been stored.
+- **A dead title seen only on a grid is not remembered.**
+  `registry.record_verification` updates existing rows only.
+- **Serve statistics are recorded but not read.** `serve_count` and
+  `last_served_at` are stamped; repeat avoidance uses the bounded
+  recently-played list, and `feedback.py` is the only path from outcomes
+  back into selection.
+- **One serve entry point.** `serve_once` is one of the original system's
+  serve surfaces; the others are not included.
+
 Licensed under MIT.
